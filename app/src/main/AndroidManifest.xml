@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pranjal.cafebill">
+    package="com.karan.cafebill">
 
     <application
         android:allowBackup="true"
@@ -9,20 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CafeBill">
-        <activity android:name=".OrderComplete"></activity>
-        <activity android:name=".view.RevenueviewActivity" />
-        <activity android:name=".view.OrderviewActivity" />
-        <activity android:name=".view.HistoryviewActivity" />
-        <activity android:name=".view.CartviewActivity" />
-        <activity android:name=".DashboardActivity" />
-        <activity android:name=".Splashscreen">
+        <activity android:name="com.karan.cafebill.OrderComplete"></activity>
+        <activity android:name="com.karan.cafebill.view.RevenueviewActivity" />
+        <activity android:name="com.karan.cafebill.view.OrderviewActivity" />
+        <activity android:name="com.karan.cafebill.view.HistoryviewActivity" />
+        <activity android:name="com.karan.cafebill.view.CartviewActivity" />
+        <activity android:name="com.karan.cafebill.DashboardActivity" />
+        <activity android:name="com.karan.cafebill.Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
+        <activity android:name="com.karan.cafebill.LoginActivity" />
     </application>
 
 </manifest>

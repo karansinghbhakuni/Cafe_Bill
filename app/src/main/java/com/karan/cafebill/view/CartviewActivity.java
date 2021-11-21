@@ -1,14 +1,12 @@
-package com.pranjal.cafebill.view;
+package com.karan.cafebill.view;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,18 +15,12 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
-import com.google.firebase.storage.UploadTask;
-import com.pranjal.cafebill.History;
-import com.pranjal.cafebill.MainAdapter;
-import com.pranjal.cafebill.OrderComplete;
-import com.pranjal.cafebill.R;
-import com.pranjal.cafebill.orderlist;
+import com.karan.cafebill.MainAdapter;
+import com.karan.cafebill.OrderComplete;
+import com.karan.cafebill.R;
+import com.karan.cafebill.orderlist;
 
 import java.util.ArrayList;
 import java.util.HashMap;

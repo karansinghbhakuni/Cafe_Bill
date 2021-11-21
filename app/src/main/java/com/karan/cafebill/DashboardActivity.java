@@ -1,4 +1,4 @@
-package com.pranjal.cafebill;
+package com.karan.cafebill;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,10 +9,10 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.pranjal.cafebill.view.CartviewActivity;
-import com.pranjal.cafebill.view.HistoryviewActivity;
-import com.pranjal.cafebill.view.OrderviewActivity;
-import com.pranjal.cafebill.view.RevenueviewActivity;
+import com.karan.cafebill.view.CartviewActivity;
+import com.karan.cafebill.view.HistoryviewActivity;
+import com.karan.cafebill.view.OrderviewActivity;
+import com.karan.cafebill.view.RevenueviewActivity;
 
 public class DashboardActivity extends AppCompatActivity {
     TextView displayname,logoutview;

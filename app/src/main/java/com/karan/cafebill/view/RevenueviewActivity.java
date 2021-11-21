@@ -1,12 +1,9 @@
-package com.pranjal.cafebill.view;
+package com.karan.cafebill.view;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -15,9 +12,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.pranjal.cafebill.History;
-import com.pranjal.cafebill.HistoryAdapter;
-import com.pranjal.cafebill.R;
+import com.karan.cafebill.History;
+import com.karan.cafebill.HistoryAdapter;
+import com.karan.cafebill.R;
 
 import java.util.ArrayList;
 

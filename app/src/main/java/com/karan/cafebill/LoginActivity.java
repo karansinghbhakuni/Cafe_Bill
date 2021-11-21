@@ -1,8 +1,7 @@
-package com.pranjal.cafebill;
+package com.karan.cafebill;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;

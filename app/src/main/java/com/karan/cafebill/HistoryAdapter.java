@@ -1,4 +1,4 @@
-package com.pranjal.cafebill;
+package com.karan.cafebill;
 
 import android.view.LayoutInflater;
 import android.view.View;
